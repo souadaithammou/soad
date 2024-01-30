@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: orangered;
+        }
+    section{
+        display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .card-description {
+      color: #555;
+    }
+    </style>
+</head>
+<body>
+     <center><h1>les poles disponibles:</h1></center>
+    <section>
+    <div class="card">
+    <img src="digital.jpg" alt="Card Image">
+    <div class="card-content">
+      <font color="orange"><h2 class="card-title">digital et intelligence artificielle:</h2></font>
+      <p class="card-description">L'intelligence artificielle est un procédé logique et automatisé reposant 
+        généralement sur un algorithme et en mesure de réaliser des tâches bien définies.</p>
+    </div>
+  </div>
+    <div class="card">
+        <img src="sante.jpg" alt="Card Image">
+        <div class="card-content">
+          <h2 class="card-title">santé:</h2>
+          <p class="card-description">ils regroupent des professionnels de santé souvent liés par un projet
+             médical commun, assurent des soins de premier recours et/ou de second recours, et peuvent
+              participer aux actions de prévention, de promotion de la santé et de sécurité sanitaire.</p>
+        </div>
+        </div>
+        <div class="card">
+            <img src="arti.png" alt="Card Image">
+            <div class="card-content">
+              <h2 class="card-title">artisanat:</h2>
+              <p class="card-description">Les Pôles d'Innovation jouent un rôle collectif pour valoriser
+                 le potentiel d'innovation des petites entreprises. Ils sont structurés autour d'un métier,
+                  ils recherchent et diffusent un ensemble de solutions techniques et organisationnelles 
+                  adaptées aux besoins des petites entreprises.
+                </p>
+            </div>
+            </div>
+            <div class="card">
+                <img src="pech.png" alt="Card Image">
+                <div class="card-content">
+                  <h2 class="card-title">peche:</h2>
+                  <p class="card-description">La "filière de pêche" se réfère généralement à l'ensemble des
+                     activités liées à la pêche, depuis la capture des poissons jusqu'à leur commercialisation.
+                      Cela englobe les différentes étapes telles que la pêche elle-même, le traitement des 
+                      produits de la pêche, la distribution, et la vente. La filière de pêche implique divers
+                       acteurs tels que les pêcheurs, les transformateurs, les grossistes et les détaillants,
+                        contribuant ainsi à l'approvisionnement des produits de la mer sur le marché.</p>
+                </div>
+                </div>
+                <div class="card">
+                    <img src="gestion.png" alt="Card Image">
+                    <div class="card-content">
+                      <h2 class="card-title">gestion et commerce:</h2>
+                      <p class="card-description">Formation pour connaître et maîtriser les techniques
+                         commerciales à travers des matières comme l’économie, le droit mais aussi la
+                          comptabilité. Elle englobe plusieurs domaines de la gestion d’entreprise.</p>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <img src="logisti.png" alt="Card Image">
+                        <div class="card-content">
+                          <h2 class="card-title">transport et logistique:</h2>
+                          <p class="card-description">La filière des transports et de la logistique englobe 
+                            l'ensemble des activités liées à la gestion, à l'organisation et à la mise 
+                            en mouvement des biens, des services et des informations tout au long de la chaîne
+                             d'approvisionnement. Cela inclut le transport de marchandises par différents
+                              modes (route, rail, maritime, aérien), la gestion des entrepôts, la distribution,
+                               la planification logistique, la gestion des stocks, et d'autres processus
+                                connexes. En somme, la filière des transports et de la logistique vise à 
+                                assurer un flux efficace des produits depuis leur point d'origine jusqu'à leur
+                                 destination finale.</p>
+                        </div>
+                        </div>
+</section>
+<a href="index.html">retour</a>
+</body>
+</html>
