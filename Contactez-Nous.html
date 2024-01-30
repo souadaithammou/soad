@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cités des métiers et des compétence</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #3498db;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 400px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: #ffffff;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="submit"] {
+            background-color: skyblue;
+            color: #fff;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(0, 183, 255);
+        }
+
+ 
+        select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background: url('arrow-down.png') no-repeat right 10px center;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
+      
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('pattern.png');
+            opacity: 0.1;
+            pointer-events: none;
+            z-index: -1;
+        }
+        form{
+            width: 50%;
+            height: 190vh;
+            background-color: rgba(39, 39, 39, 0.212);
+        } 
+        body{
+            display: flex;
+            justify-content: space-between;
+           background-color: darkblue;
+        }
+        @media screen and (max-width:650px){
+            body{
+                flex-direction: column;
+            }
+            
+        }
+        div{
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <h1>cités des métiers et des compétence</h1>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" class="form-select" style="color: #fff;">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+
+        <label for="previousEducation">Message:</label>
+        <textarea id="previousEducation" name="previousEducation" cols="50" rows="10" required></textarea>
+
+        <input type="submit" value="Submit" >
+
+    </form>
+    <div id="map">
+        <center><h1>OUR LOCATION</h1></center>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d906052.7002546795!2d-11.990400558303802!3d27.492028319043627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc370d2870321f91%3A0xf7ef17903f7b6e28!2z2YXYr9mK2YbYqSDYp9mE2YXZh9mGINmI2KfZhNmD2YHYp9ih2KfYqg!5e0!3m2!1sar!2s!4v1701969148096!5m2!1sar!2s" width="650" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <marquee behavior="" direction="" style="background-color: rgb(0, 183, 255);color: #fff;">
+            Réalisé BOUCHRA THALI
+        </marquee>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body{
+            background-color: #fff;
+        }
+    section{
+        display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    .card {
+      background-color: orangered;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+      color: #fff;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    </style>
+<body>
+    <font color="orangered"><center><h1>d'espaces pédagogiques:</h1></center></font>
+    <p>Le développement des compétences techniques et transversales est au cœur de notre pédagogie. La CMC abrite une variété d’espaces
+         pédagogiques mis à disposition des jeunes stagiaires.
+    </p>
+    <section>
+        <div class="card">
+        <img src="mediatheque-laayoune (2).png" alt="Card Image">
+        <div class="card-content">
+          <h2 class="card-title">MÉDIATHÈQUE</h2>
+        </div>
+      </div>
+        <div class="card">
+        <img src="entrepreneuriat.png" alt="Card Image">
+        <div class="card-content">
+          <h2 class="card-title">ESPASE DÉDIÉ AUX SERVICES AUX ENTREPRISES AT À L'ENTREEPRENEURIAT</h2>
+        </div>
+      </div>
+      <div class="card">
+        <img src="conferencelaayoune.png" alt="Card Image">
+        <div class="card-content">
+          <h2 class="card-title">CENTRE DE CONFÉRENCES</h2>
+        </div>
+      </div>
+      <div class="card">
+        <img src="softskillslaayoune.png" alt="Card Image">
+        <div class="card-content">
+          <h2 class="card-title">UN CENTRE DE LANGUES ET SOFT SKILLS</h2>
+        </div>
+      </div>
+      <div class="card">
+        <img src="career-center.png" alt="Card Image">
+        <div class="card-content">
+          <h2 class="card-title">CENTRE D'ORIENTATION PROFESSIONNELLE</h2>
+        </div>
+      </div>
+      <div class="card">
+        <img src="coworkinlaayoune.png" alt="Card Image">
+        <div class="card-content">
+          <h2 class="card-title">ESPASES D'INNOVATION</h2>
+        </div>
+      </div>
+      <div class="card">
+        <img src="incubateurlaayoune.png" alt="Card Image">
+        <div class="card-content">
+          <h2 class="card-title">INCUBATEUR</h2>
+        </div>
+      </div>
+      </section>
+</body>
+</html>
